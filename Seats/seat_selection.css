@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333;
+  width: 80%;
+  margin: 0 auto; /* Centers the body content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 100%;
+  background: rgba(29, 31, 32, 0.904)
+    radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);
+  background-size: 11px 11px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: auto;
+}
+
+/* Styles for table */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 25%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* Styles for headers */
+h3 {
+  color: #444;
+  margin-top: 0;
+}
+
+/* Styles for radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Styles for unavailable seats */
+span.unavailable {
+  color: red;
+  font-weight: bold;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  background-color: #af4c4c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #a04545;
+}
+
+.header-container {
+  text-align: center; /* Centers the content inside the container */
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  /box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-image {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto;
+  margin-bottom: 20px; /* Space between image and header text */
+}
+
+.header-title {
+  margin-top: 0; /* Removes default margin from the top of h1 */
+  color: #333;
+}

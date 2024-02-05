@@ -1,0 +1,177 @@
+header {
+  color: #ebe1e1;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgba(29, 31, 32, 0.904)
+    radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);
+
+  background-size: 11px 11px;
+  text-align: right;
+}
+
+.container {
+  max-width: 1200px; /* تعديل هذه القيمة وفقًا لاحتياجاتك */
+  margin: 0 auto; /* يُركز العرض عند تكبير الشاشة */
+  padding: 0 20px; /* يوفر هامشًا على الجوانب للمحتوى */
+}
+
+/* العنوان والصوره*/
+.travel-banner {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.travel-banner h1 {
+  font-size: 39px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: #fedede;
+  padding-bottom: 2%;
+}
+
+.travel-banner img {
+  max-width: 1000px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.travel-banner hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/*  الهيدر*/
+.logo img {
+  max-width: 40%;
+  height: auto;
+  margin-right: 25px;
+}
+
+.cta {
+  margin-left: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e34e4e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d82424;
+}
+
+/*  المحتوى*/
+
+.contactus-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+}
+
+.contactus-content {
+  color: #333;
+}
+
+.contactus-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #e72c2c;
+}
+
+.contactus-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.btnmore {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e34e4e;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btnmore:hover {
+  background-color: #d82424;
+}
+
+.second_div {
+  padding-left: 30px;
+}
+
+.contactus-img img {
+  width: 450px;
+  height: 300px;
+  border-radius: 5%;
+  box-shadow: 0 5px 8px rgba(1, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.7s ease;
+}
+.zoomed {
+  transform: scale(1.1);
+}
+/* الفوتر*/
+
+.new-footer {
+  background-color: #d82424;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.nav-section {
+  align-items: end;
+  padding: 10px 20px;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+  justify-content: right;
+}
+
+.menu-links li {
+  margin-left: 20px;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.menu-links a:hover {
+  color: rgb(246, 193, 193);
+}
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}

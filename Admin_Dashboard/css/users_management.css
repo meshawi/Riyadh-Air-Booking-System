@@ -1,0 +1,86 @@
+/* General Styles for the Sections */
+.user-view,
+.user-edit-delete,
+.user-add {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px; /* Space below each section */
+}
+
+.user-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.user-view h2,
+.user-edit-delete h2,
+.user-add h2 {
+  color: #007bff;
+  margin-bottom: 15px; /* Space below the header */
+}
+
+/* Input, Select, and Date Picker Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Edit/Delete User Section - 3 Fields Per Row */
+.user-edit-delete .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-edit-delete .form-row .form-field {
+  flex-basis: calc(33.333% - 10px); /* 3 fields per row */
+  margin-bottom: 15px;
+}
+
+/* Add User Section - 2 Fields Per Row */
+.user-add .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-add .form-row .form-field {
+  flex-basis: calc(50% - 10px); /* 2 fields per row */
+  margin-bottom: 15px;
+}

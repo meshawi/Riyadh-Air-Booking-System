@@ -9,7 +9,7 @@
             <h5> Welcome to</h5>
         <?php endif; ?>
 
-        <h1 class="title">Riyadh Airlines</h1>
+        <h1 class="title">Aleshawi Airlines</h1>
         <div class="buttons text-center">
             <a href="Flights/flight_search.php" class="btn btn-primary rounded w-lg btn-lg my-1">Book a Flight</a>
             <a href="#contact" class="btn btn-outline-light rounded w-lg btn-lg my-1">Contact Us</a>

@@ -18,7 +18,7 @@ if (isset($_SESSION['user_id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riyadh Airlines</title>
+    <title>Aleshawi Airlines</title>
 
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -80,12 +80,12 @@ if (isset($_SESSION['user_id'])) {
                 </div>
                 <div class="col-md-7 col-lg-8" style="background-color:white; border-radius: 9px; padding:20px;">
                     <h6 class="section-subtitle mb-0"> About us</h6>
-                    <h6 class="section-title mb-3">RIYADH AIR</h6>
+                    <h6 class="section-title mb-3">Aleshawi AIR</h6>
                     <p>Our history began on September 30, 1945, when King Abdulaziz Al Saud, the first King and founder
-                        of Saudi Arabia, flew from the Riyadh province to Taif, establishing the country’s first base of
+                        of Saudi Arabia, flew from the Aleshawi province to Taif, establishing the country’s first base of
                         civil aviation.</p>
-                    <p>A new era in the Kingdom’s aviation history begins with Riyadh Air.</p>
-                    <p>Optimizing the Kingdom’s strategic location, Riyadh Air will showcase Saudi’s exciting cultural
+                    <p>A new era in the Kingdom’s aviation history begins with Aleshawi Air.</p>
+                    <p>Optimizing the Kingdom’s strategic location, Aleshawi Air will showcase Saudi’s exciting cultural
                         and natural attractions to tourists around the world and embody the nation’s authentic
                         hospitality.</p>
                 </div>
@@ -135,7 +135,7 @@ if (isset($_SESSION['user_id'])) {
                         <div class="card-body">
                             <h2 class="mb-4"><i class="ti-world text-primary"></i></h2>
                             <h6 class="card-title">The Dynamic Metropolis</h6>
-                            <p>An ambitious vision for the future, Riyadh Air embodies Saudi Arabia's capital Riyadh at
+                            <p>An ambitious vision for the future, Aleshawi Air embodies Saudi Arabia's capital Riyadh at
                                 40,000 ft in the sky.</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ if (isset($_SESSION['user_id'])) {
                         <div class="card-body">
                             <h2 class="mb-4"><i class="ti-harddrives text-primary"></i></h2>
                             <h6 class="card-title">Technology</h6>
-                            <p>Riyadh Air will be the first digital-native airline, enabling digital innovation at every
+                            <p>Aleshawi Air will be the first digital-native airline, enabling digital innovation at every
                                 guest touchpoint for a seamless travel experience.</p>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ if (isset($_SESSION['user_id'])) {
                         <div class="card-body">
                             <h2 class="mb-4"><i class="ti-crown text-primary"></i></h2>
                             <h6 class="card-title">Hospitality</h6>
-                            <p>Riyadh Air will bring warm and authentic Saudi hospitality to the skies, and will
+                            <p>Aleshawi Air will bring warm and authentic Saudi hospitality to the skies, and will
                                 showcase Saudi Arabia's exciting cultural</p>
                         </div>
                     </div>
@@ -166,7 +166,7 @@ if (isset($_SESSION['user_id'])) {
                         <div class="card-body">
                             <h2 class="mb-4"><i class="ti-face-smile text-primary"></i></h2>
                             <h6 class="card-title">Enjoying the wonders of Saudi Arabia</h6>
-                            <p>Riyadh Air will showcase natural attractions to tourists worldwide and embody the
+                            <p>Aleshawi Air will showcase natural attractions to tourists worldwide and embody the
                                 nation's authentic hospitality. </p>
                         </div>
                     </div>
@@ -177,7 +177,7 @@ if (isset($_SESSION['user_id'])) {
                             <h2 class="mb-4"><i class="ti-medall text-primary"></i></h2>
                             <h6 class="card-title">The Future Takes Flight</h6>
                             <p>The city that is already transforming the way we live is now redefining the way we fly.
-                                Welcome to Riyadh Air, a brand-new chapter in the sky. </p>
+                                Welcome to Aleshawi Air, a brand-new chapter in the sky. </p>
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@ if (isset($_SESSION['user_id'])) {
                         <div class="card-body">
                             <h2 class="mb-4"><i class="ti-layers text-primary"></i></h2>
                             <h6 class="card-title">100+ destinations</h6>
-                            <p>Riyadh Air connecting business and leisure travelers to more than 100 destinations
+                            <p>Aleshawi Air connecting business and leisure travelers to more than 100 destinations
                                 worldwide by 2030.</p>
                         </div>
                     </div>
@@ -562,7 +562,7 @@ if (isset($_SESSION['user_id'])) {
                         <i class="ti-email"></i>
                         <div class="mb-0">
                             <h5>Email Address</h5>
-                            <p>info@riyadhair.com</p>
+                            <p>info@Aleshawiair.com</p>
                         </div>
                     </div>
                     <div class="item">
@@ -611,9 +611,9 @@ if (isset($_SESSION['user_id'])) {
                         <li class="list-body">
                             <a href="index.php" class="logo">
                                 <img src="assets/imgs/Riyadh_Air_(Logo).svg.png" style="width:50px;">
-                                <h6>Riyadh Airlines</h6>
+                                <h6>Aleshawi Airlines</h6>
                             </a>
-                            <p>Riyadh Air seeks to lead the aviation industry by transforming Saudi Arabia, given its
+                            <p>Aleshawi Air seeks to lead the aviation industry by transforming Saudi Arabia, given its
                                 unique strategic location, into a global aviation and trade hub. It is the product of
                                 the National Aviation Strategy.</p>
                             <p class="mt-3">
@@ -662,7 +662,7 @@ if (isset($_SESSION['user_id'])) {
                             </div>
 
                             <p><i class="ti-location-pin"></i> 920000000 Riyadh , SA</p>
-                            <p><i class="ti-email"></i> info@riyadhair.com</p>
+                            <p><i class="ti-email"></i> info@Aleshawiair.com</p>
 
                         </li>
                     </ul>

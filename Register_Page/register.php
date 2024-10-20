@@ -92,12 +92,12 @@
             <!-- Sign-up Content Section -->
             <div class="col align-items-center flex-col">
                 <div class="img sign-up">
-                    <img src="../assets/imgs/Riyadh_Air_Logo.svg white.png" alt="welcome" />
+                    <img src="../assets/imgs/Riyadh_Air_Logo.svg white.png" alt="welcome" style="max-width: 400px;"/>
                 </div>
                 <div class="text sign-up">
                     <h2>Join with us</h2>
                     <p>
-                        Ready for a unique adventure? Riyadh Airplane is your ticket to
+                        Ready for a unique adventure? Aleshawi Airplane is your ticket to
                         extraordinary journeys. Join us now and let's soar together!
                     </p>
                 </div>

@@ -23,13 +23,13 @@
 
       <div class="col align-items-center flex-col">
         <div class="img sign-in">
-          <img src="../assets/imgs/Riyadh_Air_Logo.svg white.png" alt="welcome" />
+                    <img src="../assets/imgs/Riyadh_Air_Logo.svg white.png" alt="welcome" style="max-width: 400px;"/>
         </div>
         <div class="text sign-in">
           <h2>Join with us</h2>
           <p>
             The city that is already transforming the way we live is now redefining the way we fly. <br>Welcome to
-            Riyadh Air, a brand-new chapter in the sky.
+            Aleshawi Air, a brand-new chapter in the sky.
           </p>
         </div>
       </div>

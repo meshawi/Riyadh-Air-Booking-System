@@ -2,6 +2,7 @@
 session_start();
 include '../incloudes/dbh.inc.php'; // Ensure this path is correct
 
+
 // Check if the user is logged in
 if (!isset($_SESSION['user_id'])) {
     // Redirect to the login page if the user is not logged in
@@ -18,8 +19,8 @@ if (!isset($_SESSION['user_id'])) {
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="seat_selection.css">
 
-    <!-- =============== GLOBAL FONT =============== -->
-    <link rel="stylesheet" href="../assets/css/globalFont.css">
+        <!-- =============== GLOBAL FONT =============== -->
+        <link rel="stylesheet" href="../assets/css/globalFont.css">
 </head>
 
 <body>
@@ -29,14 +30,15 @@ if (!isset($_SESSION['user_id'])) {
     include '../assets/Inc_files/INC_NAV.php';
     ?>
 
-    <!-- =============== Start Seats Image Section =============== -->
+    <!-- =============== Start Seats Imgae Section =============== -->
 
     <div class="header-container">
         <img src="../assets/imgs/PlainSeats.png" alt="Header Image" class="header-image">
         <h1 class="header-title">Seat Selection</h1>
     </div>
 
-    <!-- =============== End Seats Image Section =============== -->
+    <!-- =============== End Seats Imgae Section =============== -->
+
 
     <!-- =============== Start Seats Selection Section =============== -->
 
@@ -60,12 +62,7 @@ if (!isset($_SESSION['user_id'])) {
         $stmt->bindParam(':flightID', $flightID, PDO::PARAM_INT);
         $stmt->bindParam(':classType', $classType, PDO::PARAM_STR);
         $stmt->bindParam(':isOccupied', $isOccupied, PDO::PARAM_INT);
-        if (!$stmt->execute()) {
-            // Add error handling
-            $errorInfo = $stmt->errorInfo();
-            echo "Error executing query: " . $errorInfo[2];
-            return [];
-        }
+        $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
@@ -73,10 +70,6 @@ if (!isset($_SESSION['user_id'])) {
     $availableSeats = getSeats($pdo, $flightID, $classType, 0); // 0 for not occupied
     $unavailableSeats = getSeats($pdo, $flightID, $classType, 1); // 1 for occupied
     
-    if (empty($availableSeats)) {
-        echo "<p>No available seats found.</p>";
-    }
-
     echo "<form action='confirm_seats.php' method='post'>";
     for ($i = 1; $i <= $passengers; $i++) {
         echo "<h3>Passenger $i: Select a Seat (Class: $classType)</h3>";

@@ -261,9 +261,9 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
                     <div class="boarding-pass">
                         <header>
-                            <div class="logo">
+                                                       <div class="logo">
                                 <img src="../assets/imgs/Riyadh_Air_Logo.svg white.png" class="logo" alt=""
-                                    style="width: 200px; height: auto;">
+                                    style="width: 64px; height: auto;">
                             </div>
                             <div class="flight">
                                 <small>Flight</small>

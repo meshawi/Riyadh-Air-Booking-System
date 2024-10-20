@@ -140,7 +140,7 @@
 
 <nav class="navigationWrapper">
   <div class="logoWrapper">
-    <span class="stylish">Riyadh</span>
+    <span class="stylish">Aleshawi</span>
     <span class="logo">Airlines</span>
   </div>
   <ul class="navigation">
